@@ -397,7 +397,17 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"seed.flo.cash", "dnsseed.florincoin.info", "flodns.oip.li", "flo.dns.seednode.net", ""};
+static const string mainnet_seeds[] = {"188.166.6.99",
+                                       "176.9.59.110",
+                                       "193.70.122.58",
+                                       "nyc2.entertheblockchain.com",
+                                       "sf1.entertheblockchain.com",
+                                       "am2.entertheblockchain.com",
+                                       "sgp.entertheblockchain.com",
+                                       "ind.entertheblockchain.com",
+                                       "de.entertheblockchain.com",
+                                       "api.alexandria.io",
+                                       ""};
 static const string testnet_seeds[] = {"testnet-seed.flo.cash", "testnet-flo.dns.seednode.net", ""};
 static const string *seeds = mainnet_seeds;
 
